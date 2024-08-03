@@ -1,0 +1,6 @@
+/home/mehran/workspace/icdb/cmake-build-debug/CMakeFiles/datastructures.dir
+/home/mehran/workspace/icdb/cmake-build-debug/CMakeFiles/lsm_server.dir
+/home/mehran/workspace/icdb/cmake-build-debug/CMakeFiles/lsm_client.dir
+/home/mehran/workspace/icdb/cmake-build-debug/CMakeFiles/lsm_put_test.dir
+/home/mehran/workspace/icdb/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/mehran/workspace/icdb/cmake-build-debug/CMakeFiles/rebuild_cache.dir
