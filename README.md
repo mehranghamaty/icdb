@@ -65,7 +65,7 @@ define {
 And here is an example query
 
 ```example queries
-get {
+filter {
     columns: [content]
     location: {
         post : {
@@ -76,7 +76,7 @@ get {
     }
 }
 
-get {
+filter {
     columns: [t1.content]
     location: {
         user : {
