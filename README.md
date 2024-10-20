@@ -7,11 +7,10 @@ ICDB is built using LSM style structure for each of the columns.
 ## Query language
 
 At the moment ICDB is just a KV store, but the intention being to work towards a
-structured query language tailored for use with ICDB based on json.
-Just use sequal.
+structured query language tailored for use with ICDB.
 
 In order to simplify the "front-end" of the application we are going to be using a 
-json styled query language.
+styled query language.
 
 ```example server configuration
 define {
@@ -65,7 +64,7 @@ define {
 And here is an example query
 
 ```example queries
-filter {
+get {
     columns: [content]
     location: {
         post : {
@@ -76,7 +75,7 @@ filter {
     }
 }
 
-filter {
+get {
     columns: [t1.content]
     location: {
         user : {
